@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+}
+
+.home{
+   background:linear-gradient(rgb(34, 56, 79,.5), rgb(37, 89, 81,.8)), url('../Image/images.jpg') center/cover fixed no-repeat;
+   object-fit: cover;
+   padding: 30px 0;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+   width: 100%;
+}
+.content-sec{
+   width: 90%;
+   height: 100%;
+   margin: 0 auto;
+   max-width: 1280px;
+   display: grid;
+   row-gap: 30px;
+   place-items: center;
+}
+.logo h1{
+   color: rgba(240, 178, 4);
+   font-weight: 400;
+   letter-spacing: 2px;
+}
+.logo{
+   display: grid;
+   place-items: center;
+}
+.dots{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 0 auto;
+   place-items: center;
+   width: 20%;
+   /* row-gap: 2px; */
+}
+.dots .dot{
+   width: 5px;
+   height: 5px;
+   background: #fff;
+   border-radius: 50%;
+}
+.title h1{
+   color: #fff;
+   text-align: center;
+   font-size: 1.5rem;
+   letter-spacing: 1px;
+}
+.title h5{
+   color: #fff;
+   font-size: 11px;
+   width: 80%;
+   text-align: center;
+   margin: 0 auto;
+   letter-spacing: 1px;
+   line-height: 20px;
+}
+.title{
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+}
+@media screen and (min-width:768px){
+   .title h5{
+      width: 520px;
+      font-size: 11px;
+   }
+}
+.title{
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+}
